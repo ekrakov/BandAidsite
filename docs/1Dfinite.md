@@ -1,6 +1,4 @@
-# 1D example 
-
-To understand material properties, we need to study how electrons move in solids. While classical mechanics gave us some insight into how electrons move, certain properties, such as heat capcaity, etc can not be propoerly descirbed without quantum mechanics. The Schrödinger equation describes the quantum behavior of an electron in a given potential. However, solving the Schrödinger equation for a solid, where multiple periodic potentials, is extremely challenging. This tutorial introduces the concept of band structure—the energy eigenstates of electrons in a periodic potential.
+# 1D square well
 
 ## Finite square well
 Before tackling the Schrödinger equation in a system with multiple potentials, it's important to first understand its solutions for a single, isolated potential. Suppose we make a huge simplification and assume the potential an electron feels due to the nucleus is given by a 1D square well potential. 
@@ -333,10 +331,4 @@ let layout = {
 </body>
 </html>
 
-
-## Two square wells
-
-Our final goal is to understand electronic behavior in solids. We take our previous example one step closer by considering the behavior of a single electron in the potential induced by two nuclei spaced apart by a distannce $a$. This is essentially the $H_2$ molecule, but we follow with the simplification that the $H_2$ atom 
-
-
-
+Here you see the energy values and how they change as the potential well depth and well size are changed. In the following section, we will see what the solutions look like as we add more wells. 
