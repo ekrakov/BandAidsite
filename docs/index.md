@@ -11,7 +11,7 @@ Out interest is in solving the energy states of the Schrödinger equation under 
   Explains how to solve the Schrödinger equation for a single square well potential.
 
 - **[Multiple square wells](bands.md)**  
-  Shows how the energy states evolve as more wells are added, introducing the concept of band structure by illustrating the formation of bands.
+  Shows how the energy states evolve as more wells are added, introducing the concept of band structure by animating the formation of bands.
 
 - **[Formal introduction to bands](bounds.md)**  
   Provides a formal look at band theory, starting with Bloch’s theorem and then moving on to the free-particle solution and the Kronig–Penney model—a direct method for solving the periodic Schrödinger equation.

@@ -16,7 +16,8 @@ In this animation, we explore how discrete quantum energy levels evolve into ene
 
 ### 2. Adding Two Wells
 
-- Next, increase the number of wells to 2. The idea is that each well represents an atomic nucleus at its center, and the single electron can interact with either nucleus.  
+- Next, increase the number of wells to 2. The atomic nuclei is sitting at the center of the well. A single electron can interact with each nucleus. 
+
 - In the third plot, you can see the wavefunction and its probability amplitude. For the first eigenstate (index 0), the electron is primarily localized between the two wells—analogous to a bonding orbital in chemistry.  
 - Now set the eigenvalue index to 1. You’ll observe that the probability of finding the electron between the wells is negligible, which corresponds to an antibonding orbital. The first two orbitals can be roughly viewed as s-type bonding and antibonding states.  
 - If you move on to the second and third eigenstates (indices 2 and 3), you’ll notice bonding and antibonding states that resemble p-like orbitals in shape.
