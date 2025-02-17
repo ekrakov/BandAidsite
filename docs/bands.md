@@ -3,35 +3,37 @@
 ## Free particle solution 
 
 It is useful to understand the relationship between the structure of $V(x)$ and the resulting band structure. We can begin by considering one extreme: solutions to the Schr\"odinger equation when $V(x)=0$, i.e. the case of free electrons. 
+
 $$
   -\frac{\hbar^2}{2m}\frac{d^2}{dx^2}\psi(x)=E\,\psi(x)
 $$
-%
+
 The solutions to the free electron problem are the family of plane waves
 
 $$
-    \psi_k(x)=e^{iqx} \, , \quad \quad 
-    E = \frac{\hbar^2 q^2}{2 m}
+    \psi_k(x)=e^{iqx} \, , \quad \quad E = \frac{\hbar^2 q^2}{2 m}
 $$
  where $q$ is not restricted to be in the Brillouin zone. However, if $q$ does not belong to the Brillouin zone, we can decompose $q$ as $q=G+k$, where $G$ is the reciprocal lattice vector $G$ and $k$ a vector bounded within the Brillouin zone $\left(-\frac{\pi}{a}, \frac{\pi}{a}\right)$.
 %
 Because $V$ is a constant function, our problem is trivially periodic, but for the sake of argument we can choose a particular periodicity $G$, defining the corresponding solutions in the the form of Bloch's theorem
-\begin{equation}
+
+$$
     \psi(x)=e^{iqx}=e^{iGx}e^{ikx}
-\end{equation}
+$$
+
 where $e^{iGx}$ is effectively $u(x)$, the component that is periodic with the ``lattice", modulated by $e^{ikx}$. The energy of a free particle is given by 
 
 $$
   E=\frac{\hbar^2}{2m}|q|^2
 $$
-%
+
 Where $G=\frac{2\pi n}{a}$ and $q=k+G$
 Our energy can then be expressed as 
 
 $$
     \frac{\hbar^2}{2m}|G+k|^2
 $$
-%
+
 With this formulation of our wavefunction, we can plot our solutions inside the Brillouin zone. While this band structure is unquestionably a toy example, its characteristics will be useful for comparison to band structures induced by nontrivial periodic potentials. 
 
 
