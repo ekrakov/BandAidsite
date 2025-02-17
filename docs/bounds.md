@@ -1,5 +1,6 @@
+# Formal introduction to bands 
 
-# Bloch's theorem 
+## Bloch's theorem 
 Our lattice is periodic under translation by a lattice vector $\bR$. While it is not immediately clear how this will play into our final solution, it is helpful to start by introducing a translation operator $\That$ such that 
 
 $$ \That \psi(\br)=\psi(\br+\bR) $$
@@ -44,8 +45,8 @@ $$
 $$
 
 
-# Free particle solution 
-It is useful to understand the relationship between the structure of $V(x)$ and the resulting band structure. We can begin by considering one extreme: solutions to the Schr\"odinger equation when $V(x)=0$, i.e. the case of free electrons. 
+## Free particle solution 
+It is useful to understand the relationship between the structure of $V(x)$ and the resulting band structure. We can begin by considering one extreme: solutions to the Schrödinger equation when $V(x)=0$, i.e. the case of free electrons. 
 
 $$
   -\frac{\hbar^2}{2m}\frac{d^2}{dx^2}\psi(x)=E\,\psi(x)
