@@ -89,25 +89,19 @@ Experiment with these parameters to see how they affect the shape of the wavefun
 ### Bloch's theorem 
 Our lattice is periodic under translation by a lattice vector $\bR$. While it is not immediately clear how this will play into our final solution, it is helpful to start by introducing a translation operator $\That$ such that 
 
-$$
-    \That \psi(\br)=\psi(\br+\bR)
-$$
+$$ \That \psi(\br)=\psi(\br+\bR) $$
 
 The eigenspectrum of this operator seems a little easier to understand than that of $\Hhat$. Because our lattice is periodic in $\bR$, implying $\Hhat(\br + \bR) = \Hhat(\br)$, we can show that the operators $\That$ and $\Hhat$ commute:
 
 
-$$
-    \That\Hhat(\br)\psi(\br) = \Hhat(\br + \bR)\psi(\br + \bR) = \Hhat(\br)\That\psi(\br)
-$$
+$$\That\Hhat(\br)\psi(\br) = \Hhat(\br + \bR)\psi(\br + \bR) = \Hhat(\br)\That\psi(\br) $$
 
 
 By a well-known property, showing that $\That$ and $\Hhat$ commute under periodicity $\bR$ implies that they share a common set of eigenfunctions. Finding the eigenfunctions of $\That$ then equates to solving for the eigenfunctions of $\Hhat$, a powerful simplification.
 
 We now wish to determine the form of the eigenfunctions of $\That$. For example, eigenfunctions of eigenvalue $\lambda=1$ are totally periodic in $\bR$, such that $f(\br)$  does not change when translated by $\bR$:
 
-$$
-\That f(\br)=f(\br+\bR)=f(\br)
-$$
+$$\That f(\br)=f(\br+\bR)=f(\br)$$
 
 
 More generally, consider a function that is not trivially periodic but  satisfies $\psi(\br+\bR)=\lambda \psi(\br)$. This behavior is well described by an exponential, but because we are describing a quantum system, it has to be an exponential that is normalizable, i.e., a complex exponential of the form $\psi = e^{i\bk\cdot\br}$. We apply $\That$ to find its eigenvalue: 
