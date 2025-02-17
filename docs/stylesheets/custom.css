@@ -18,3 +18,8 @@ Expand the main content width
 .md-sidebar {
     max-width: 250px; /* Adjust the sidebar width */
 }
+
+
+body {
+    background-color: red !important;
+  }
