@@ -560,34 +560,30 @@
 
 <h1 id="introduction-to-bands">Introduction to bands</h1>
 <h2 id="free-particle-solution">Free particle solution</h2>
-<p>It is useful to understand the relationship between the structure of <span class="arithmatex">\(V(x)\)</span> and the resulting band structure. We can begin by considering one extreme: solutions to the Schr\"odinger equation when <span class="arithmatex">\(V(x)=0\)</span>, i.e. the case of free electrons. 
-$$
+<p>It is useful to understand the relationship between the structure of <span class="arithmatex">\(V(x)\)</span> and the resulting band structure. We can begin by considering one extreme: solutions to the Schr\"odinger equation when <span class="arithmatex">\(V(x)=0\)</span>, i.e. the case of free electrons. </p>
+<div class="arithmatex">\[
   -\frac{\hbar^2}{2m}\frac{d^2}{dx^2}\psi(x)=E\,\psi(x)
-$$
-%
-The solutions to the free electron problem are the family of plane waves</p>
+\]</div>
+<p>The solutions to the free electron problem are the family of plane waves</p>
 <p>$$
-    \psi_k(x)=e^{iqx} \, , \quad \quad 
-    E = \frac{\hbar^2 q^2}{2 m}
+    \psi_k(x)=e^{iqx} \, , \quad \quad E = \frac{\hbar^2 q^2}{2 m}
 $$
  where <span class="arithmatex">\(q\)</span> is not restricted to be in the Brillouin zone. However, if <span class="arithmatex">\(q\)</span> does not belong to the Brillouin zone, we can decompose <span class="arithmatex">\(q\)</span> as <span class="arithmatex">\(q=G+k\)</span>, where <span class="arithmatex">\(G\)</span> is the reciprocal lattice vector <span class="arithmatex">\(G\)</span> and <span class="arithmatex">\(k\)</span> a vector bounded within the Brillouin zone <span class="arithmatex">\(\left(-\frac{\pi}{a}, \frac{\pi}{a}\right)\)</span>.
 %
-Because <span class="arithmatex">\(V\)</span> is a constant function, our problem is trivially periodic, but for the sake of argument we can choose a particular periodicity <span class="arithmatex">\(G\)</span>, defining the corresponding solutions in the the form of Bloch's theorem
-\begin{equation}
+Because <span class="arithmatex">\(V\)</span> is a constant function, our problem is trivially periodic, but for the sake of argument we can choose a particular periodicity <span class="arithmatex">\(G\)</span>, defining the corresponding solutions in the the form of Bloch's theorem</p>
+<div class="arithmatex">\[
     \psi(x)=e^{iqx}=e^{iGx}e^{ikx}
-\end{equation}
-where <span class="arithmatex">\(e^{iGx}\)</span> is effectively <span class="arithmatex">\(u(x)\)</span>, the component that is periodic with the ``lattice", modulated by <span class="arithmatex">\(e^{ikx}\)</span>. The energy of a free particle is given by </p>
-<p>$$
+\]</div>
+<p>where <span class="arithmatex">\(e^{iGx}\)</span> is effectively <span class="arithmatex">\(u(x)\)</span>, the component that is periodic with the ``lattice", modulated by <span class="arithmatex">\(e^{ikx}\)</span>. The energy of a free particle is given by </p>
+<div class="arithmatex">\[
   E=\frac{\hbar^2}{2m}|q|^2
-$$
-%
-Where <span class="arithmatex">\(G=\frac{2\pi n}{a}\)</span> and <span class="arithmatex">\(q=k+G\)</span>
+\]</div>
+<p>Where <span class="arithmatex">\(G=\frac{2\pi n}{a}\)</span> and <span class="arithmatex">\(q=k+G\)</span>
 Our energy can then be expressed as </p>
-<p>$$
+<div class="arithmatex">\[
     \frac{\hbar^2}{2m}|G+k|^2
-$$
-%
-With this formulation of our wavefunction, we can plot our solutions inside the Brillouin zone. While this band structure is unquestionably a toy example, its characteristics will be useful for comparison to band structures induced by nontrivial periodic potentials. </p>
+\]</div>
+<p>With this formulation of our wavefunction, we can plot our solutions inside the Brillouin zone. While this band structure is unquestionably a toy example, its characteristics will be useful for comparison to band structures induced by nontrivial periodic potentials. </p>
 <h2 id="introduction-to-bands_1">Introduction to Bands</h2>
 <h2 id="multisquare-well-animation-from-isolated-levels-to-energy-bands">Multi–Square-Well Animation: From Isolated Levels to Energy Bands</h2>
 <p>In this animation, we explore how discrete quantum energy levels evolve into <strong>energy bands</strong> when multiple square wells are arranged in one dimension—mimicking, in a simplified way, how an electron behaves in a crystalline solid. Note that we are only solving the <strong>single-electron</strong> Schrödinger equation.</p>
@@ -626,18 +622,12 @@ With this formulation of our wavefunction, we can plot our solutions inside the 
 
 <h3 id="blochs-theorem">Bloch's theorem</h3>
 <p>Our lattice is periodic under translation by a lattice vector <span class="arithmatex">\(\bR\)</span>. While it is not immediately clear how this will play into our final solution, it is helpful to start by introducing a translation operator <span class="arithmatex">\(\That\)</span> such that </p>
-<div class="arithmatex">\[
-    \That \psi(\br)=\psi(\br+\bR)
-\]</div>
+<div class="arithmatex">\[ \That \psi(\br)=\psi(\br+\bR) \]</div>
 <p>The eigenspectrum of this operator seems a little easier to understand than that of <span class="arithmatex">\(\Hhat\)</span>. Because our lattice is periodic in <span class="arithmatex">\(\bR\)</span>, implying <span class="arithmatex">\(\Hhat(\br + \bR) = \Hhat(\br)\)</span>, we can show that the operators <span class="arithmatex">\(\That\)</span> and <span class="arithmatex">\(\Hhat\)</span> commute:</p>
-<div class="arithmatex">\[
-    \That\Hhat(\br)\psi(\br) = \Hhat(\br + \bR)\psi(\br + \bR) = \Hhat(\br)\That\psi(\br)
-\]</div>
+<div class="arithmatex">\[\That\Hhat(\br)\psi(\br) = \Hhat(\br + \bR)\psi(\br + \bR) = \Hhat(\br)\That\psi(\br) \]</div>
 <p>By a well-known property, showing that <span class="arithmatex">\(\That\)</span> and <span class="arithmatex">\(\Hhat\)</span> commute under periodicity <span class="arithmatex">\(\bR\)</span> implies that they share a common set of eigenfunctions. Finding the eigenfunctions of <span class="arithmatex">\(\That\)</span> then equates to solving for the eigenfunctions of <span class="arithmatex">\(\Hhat\)</span>, a powerful simplification.</p>
 <p>We now wish to determine the form of the eigenfunctions of <span class="arithmatex">\(\That\)</span>. For example, eigenfunctions of eigenvalue <span class="arithmatex">\(\lambda=1\)</span> are totally periodic in <span class="arithmatex">\(\bR\)</span>, such that <span class="arithmatex">\(f(\br)\)</span>  does not change when translated by <span class="arithmatex">\(\bR\)</span>:</p>
-<div class="arithmatex">\[
-\That f(\br)=f(\br+\bR)=f(\br)
-\]</div>
+<div class="arithmatex">\[\That f(\br)=f(\br+\bR)=f(\br)\]</div>
 <p>More generally, consider a function that is not trivially periodic but  satisfies <span class="arithmatex">\(\psi(\br+\bR)=\lambda \psi(\br)\)</span>. This behavior is well described by an exponential, but because we are describing a quantum system, it has to be an exponential that is normalizable, i.e., a complex exponential of the form <span class="arithmatex">\(\psi = e^{i\bk\cdot\br}\)</span>. We apply <span class="arithmatex">\(\That\)</span> to find its eigenvalue: </p>
 <div class="arithmatex">\[
    \That e^{i\bk\cdot\br} = e^{i(\bk \cdot \br + \bk \cdot \bR)} = 
