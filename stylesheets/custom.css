@@ -1,6 +1,6 @@
 Expand the main content width
 .md-content {
-    max-width: 50%; /* Increase the width of the main text area */
+    max-width: 70%; /* Increase the width of the main text area */
     margin: 0 auto; /* Keep it centered */
 }
 
@@ -11,15 +11,10 @@ Expand the main content width
 
 /* Increase the overall layout width */
 .md-grid {
-    max-width: 10%; /* Full-width container */
+    max-width: 70%; /* Full-width container */
 }
 
 /* Reduce the sidebar width if necessary */
 .md-sidebar {
     max-width: 250px; /* Adjust the sidebar width */
 }
-
-
-body {
-    background-color: red !important;
-  }
