@@ -1,17 +1,17 @@
 Expand the main content width
 .md-content {
-    max-width: 70%; /* Increase the width of the main text area */
+    max-width: 80%; /* Increase the width of the main text area */
     margin: 0 auto; /* Keep it centered */
 }
 
 /* Make text block wider */
 .md-typeset {
-    max-width: 80%; /* Adjust this as needed */
+    max-width: 70%; /* Adjust this as needed */
 }
 
 /* Increase the overall layout width */
 .md-grid {
-    max-width: 70%; /* Full-width container */
+    max-width: 80%; /* Full-width container */
 }
 
 /* Reduce the sidebar width if necessary */
