@@ -1,4 +1,4 @@
-# Introduction to bands (Animation) 
+# Multiple square wells (Animation) 
 
 ## Multi–Square-Well 
 
@@ -6,7 +6,7 @@ In this animation, we explore how discrete quantum energy levels evolve into ene
 
 ---
 
-### 1. Single Square Well (One “Atom”)
+### 1. Single Square Well 
 
 - Begin with one square well by setting the number of wells to 1. The square potential represents a simplified model of an electron bound to a single atomic nucleus.  
 - In the second figure, you can see a set of discrete bound-state energy levels. If we were to solve the full 3D Schrödinger equation, these levels would correspond to the energies of particular orbital configurations.  
@@ -34,7 +34,7 @@ In this animation, we explore how discrete quantum energy levels evolve into ene
 ### 4. Additional Parameters: Well Depth, Spacing, and Width
 
 - The animation allows you to tune various parameters: the depth of each square well, their barrier width, and the distance between wells.  
-- The barrier width (distance between wells) controls wavefunction overlap. A larger barrier typically reduces overlap and widens the band gap.  
+- The **barrier width** (distance between wells) controls wavefunction overlap. A larger barrier typically reduces overlap and widens the band gap.  
 - The **well depth** determines how tightly bound each state is, shifting the entire set of energy levels up or down.  
 
 Experiment with these parameters to see how they affect the shape of the wavefunctions, the spacing between energy levels, and the formation of continuous bands versus isolated levels.
